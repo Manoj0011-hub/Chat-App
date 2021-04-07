@@ -157,9 +157,15 @@ button:disabled {
     flex-grow: 1;
 }
 
-.compose button {
+.compose button{
     font-size: 14px;
 }
+
+@media only screen and (max-width: 600px) {
+    .compose button {
+      font-size: 60%;
+    }
+  }
 
 /* Chat Sidebar Styles */
 
